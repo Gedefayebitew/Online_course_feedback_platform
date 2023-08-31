@@ -1,0 +1,74 @@
+/* Reset and basic styling */
+body, h1, h2, p, a, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   
+    
+  }
+ 
+  
+  a {
+    text-decoration: none;
+    color: #171e26;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  main {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .get-started-button {
+    background-color: #7300ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-options {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .login-options button {
+    background-color: #08090a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .login-options button:hover {
+    background-color: #b300ad;
+  }
+  
+ 
