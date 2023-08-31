@@ -1,1 +1,2 @@
 # Online_course_feedback_platform
+The Online Course Feedback Portal provides a platform for learners to share valuable insights about online courses. It fosters communication between students and instructors, leading to improved course content and better learning outcomes. Enhancing education through collaborative feedback and continuous refinement of online learning experiences is its core objective.
