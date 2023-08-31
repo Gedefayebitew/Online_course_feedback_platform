@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="admin_dashboard.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome, Admin!</h1>
+      <nav>
+        <a href="#">Dashboard</a>
+        <a href="#" onclick="showFacultyActions()">Manage Faculty</a>
+        <a href="#" onclick="showCourseActions()">Manage Courses</a>
+        <a href="#">Logout</a>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="admin-actions">
+        <h2>Admin Actions</h2>
+        <div class="action-buttons">
+          <button class="faculty-actions" id="addFacultyBtn" onclick="addFaculty()">Add Faculty</button>
+          <button class="faculty-actions" id="deleteFacultyBtn" onclick="deleteFaculty()">Delete Faculty</button>
+          <button class="course-actions" id="addCourseBtn" onclick="addCourse()">Add Course</button>
+          <button class="course-actions" id="deleteCourseBtn" onclick="deleteCourse()">Delete Course</button>
+          <button class="course-actions" id="updateCourseBtn" onclick="updateCourse()">Update Course</button>
+        </div>
+      </section>
+      
+      <section class="faculty-section" id="facultySection">
+        <!-- Content for faculty management -->
+      </section>
+      
+      <section class="course-section" id="courseSection">
+        <!-- Content for course management -->
+      </section>
+    </main>
+  </div>
+  <script src="admin_dashboard.js"></script>
+</body>
+</html>
