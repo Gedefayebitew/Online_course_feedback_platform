@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Homepage</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Our Portal</h1>
+      
+    </header>
+    
+    <main>
+      <section class="intro">
+        <h2>Explore, Learn, and Connect</h2>
+        <p>Discover our portal's features for students, faculty, and more.</p>
+        <button class="get-started-button" onclick="toggleLoginOptions()">Select Role</button>
+        <div id="loginOptions" class="login-options">
+          <button onclick="openLogin('admin')">Admin</button>
+          <button onclick="openLogin('student')">Student</button>
+          <button onclick="openLogin('faculty')">Faculty</button>
+        </div>
+      </section>
+    </main>
+    
+  </div>
+  <script>
+    function toggleLoginOptions() {
+      var loginOptions = document.getElementById("loginOptions");
+      if (loginOptions.style.display === "block") {
+        loginOptions.style.display = "none";
+      } else {
+        loginOptions.style.display = "block";
+      }
+    }
+    
+    function openLogin(userType) {
+      window.location.href = userType + "_login.html";
+    }
+  </script>
+</body>
+</html>
