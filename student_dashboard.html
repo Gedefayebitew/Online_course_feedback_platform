@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="student_dashboard.css">
+  <title>Student Dashboard</title>
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Welcome, Student!</h1>
+    <div class="profile-section">
+      <h2>Profile Update</h2>
+      <!-- Add profile update form here -->
+    </div>
+    <div class="feedback-section">
+      <h2>Faculty-Subject Pair Feedback</h2>
+        <form id="feedback-form" action="submit_feedback.php" method="post">
+
+
+        <div class="select-container">
+            <label for="professor">Select Professor:</label>
+            <select name="professor" required>
+              <option value="" disabled selected>Select Professor</option>
+              <option value="professor1">proff.Poojan Shah</option>
+              <option value="professor2">Proff.Avani </option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+          <div class="select-container">
+            <label for="subject">Select Subject:</label>
+            <select name="subject" required>
+              <option value="" disabled selected>Select Subject</option>
+              <option value="subject1">Machine Learing</option>
+              <option value="subject2">Artificial Inteligence</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+        <!-- Feedback questions with options -->
+        <div class="question">
+          <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+          <label><input type="radio" name="q1" value="20">Excellent</label>
+          <label><input type="radio" name="q1" value="15">Very Good</label>
+          <label><input type="radio" name="q1" value="10">Moderate</label>
+          <label><input type="radio" name="q1" value="5">Good</label>
+          <label><input type="radio" name="q1" value="0">Poor</label>
+        </div>
+        <div class="question">
+            <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+            <label><input type="radio" name="q1" value="20">Excellent</label>
+            <label><input type="radio" name="q1" value="15">Very Good</label>
+            <label><input type="radio" name="q1" value="10">Moderate</label>
+            <label><input type="radio" name="q1" value="5">Good</label>
+            <label><input type="radio" name="q1" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>2) Has the Teacher covered relevant topics beyond the syllabus?</p>
+            <label><input type="radio" name="q2" value="20">Excellent</label>
+            <label><input type="radio" name="q2" value="15">Very Good</label>
+            <label><input type="radio" name="q2" value="10">Moderate</label>
+            <label><input type="radio" name="q2" value="5">Good</label>
+            <label><input type="radio" name="q2" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+            <label><input type="radio" name="q1" value="20">Excellent</label>
+            <label><input type="radio" name="q1" value="15">Very Good</label>
+            <label><input type="radio" name="q1" value="10">Moderate</label>
+            <label><input type="radio" name="q1" value="5">Good</label>
+            <label><input type="radio" name="q1" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>2) Has the Teacher covered relevant topics beyond the syllabus?</p>
+            <label><input type="radio" name="q2" value="20">Excellent</label>
+            <label><input type="radio" name="q2" value="15">Very Good</label>
+            <label><input type="radio" name="q2" value="10">Moderate</label>
+            <label><input type="radio" name="q2" value="5">Good</label>
+            <label><input type="radio" name="q2" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+            <label><input type="radio" name="q1" value="20">Excellent</label>
+            <label><input type="radio" name="q1" value="15">Very Good</label>
+            <label><input type="radio" name="q1" value="10">Moderate</label>
+            <label><input type="radio" name="q1" value="5">Good</label>
+            <label><input type="radio" name="q1" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>2) Has the Teacher covered relevant topics beyond the syllabus?</p>
+            <label><input type="radio" name="q2" value="20">Excellent</label>
+            <label><input type="radio" name="q2" value="15">Very Good</label>
+            <label><input type="radio" name="q2" value="10">Moderate</label>
+            <label><input type="radio" name="q2" value="5">Good</label>
+            <label><input type="radio" name="q2" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+            <label><input type="radio" name="q1" value="20">Excellent</label>
+            <label><input type="radio" name="q1" value="15">Very Good</label>
+            <label><input type="radio" name="q1" value="10">Moderate</label>
+            <label><input type="radio" name="q1" value="5">Good</label>
+            <label><input type="radio" name="q1" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>2) Has the Teacher covered relevant topics beyond the syllabus?</p>
+            <label><input type="radio" name="q2" value="20">Excellent</label>
+            <label><input type="radio" name="q2" value="15">Very Good</label>
+            <label><input type="radio" name="q2" value="10">Moderate</label>
+            <label><input type="radio" name="q2" value="5">Good</label>
+            <label><input type="radio" name="q2" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+            <label><input type="radio" name="q1" value="20">Excellent</label>
+            <label><input type="radio" name="q1" value="15">Very Good</label>
+            <label><input type="radio" name="q1" value="10">Moderate</label>
+            <label><input type="radio" name="q1" value="5">Good</label>
+            <label><input type="radio" name="q1" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>2) Has the Teacher covered relevant topics beyond the syllabus?</p>
+            <label><input type="radio" name="q2" value="20">Excellent</label>
+            <label><input type="radio" name="q2" value="15">Very Good</label>
+            <label><input type="radio" name="q2" value="10">Moderate</label>
+            <label><input type="radio" name="q2" value="5">Good</label>
+            <label><input type="radio" name="q2" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+            <label><input type="radio" name="q1" value="20">Excellent</label>
+            <label><input type="radio" name="q1" value="15">Very Good</label>
+            <label><input type="radio" name="q1" value="10">Moderate</label>
+            <label><input type="radio" name="q1" value="5">Good</label>
+            <label><input type="radio" name="q1" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>2) Has the Teacher covered relevant topics beyond the syllabus?</p>
+            <label><input type="radio" name="q2" value="20">Excellent</label>
+            <label><input type="radio" name="q2" value="15">Very Good</label>
+            <label><input type="radio" name="q2" value="10">Moderate</label>
+            <label><input type="radio" name="q2" value="5">Good</label>
+            <label><input type="radio" name="q2" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>1) Has the Teacher covered the entire Syllabus As prescribed by University?</p>
+            <label><input type="radio" name="q1" value="20">Excellent</label>
+            <label><input type="radio" name="q1" value="15">Very Good</label>
+            <label><input type="radio" name="q1" value="10">Moderate</label>
+            <label><input type="radio" name="q1" value="5">Good</label>
+            <label><input type="radio" name="q1" value="0">Poor</label>
+          </div>
+          <div class="question">
+            <p>2) Has the Teacher covered relevant topics beyond the syllabus?</p>
+            <label><input type="radio" name="q2" value="20">Excellent</label>
+            <label><input type="radio" name="q2" value="15">Very Good</label>
+            <label><input type="radio" name="q2" value="10">Moderate</label>
+            <label><input type="radio" name="q2" value="5">Good</label>
+            <label><input type="radio" name="q2" value="0">Poor</label>
+          </div>
+        <!-- Add other feedback questions here -->
+        <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+      </form>
+    </div>
+  </div>
+  <script src="student_dashboard.js"></script>
+</body>
+</html>
