@@ -1,0 +1,46 @@
+/* Add your custom styling here */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.admin-actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.faculty-section,
+.course-section {
+  display: none;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
